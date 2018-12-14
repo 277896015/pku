@@ -1,13 +1,13 @@
-1����ҳЧ��
+﻿1、首页效果
 
-��̬ҳ�����д  �����˵�Ч��  �ֲ�ͼ�л�Ч�� ͼƬ����ʱ����Ч�� 
+静态页代码编写  下拉菜单效果  轮播图切换效果 图片移上时浮现效果 
 
-2������ſ� https://www.pku.edu.cn/about/index.htm
+2、北大概况 https://www.pku.edu.cn/about/index.htm
 
-��̬ҳ�����д  �����˵�Ч��  
+静态页代码编写  下拉菜单效果  
 
-tab�������϶�̬Ч��
+tab标题移上动态效果
 
-3����԰��д https://www.pku.edu.cn/yytx/features_2018/index.htm
+3、燕园特写 https://www.pku.edu.cn/yytx/features_2018/index.htm
 
-��̬ҳ��д  ͼƬ������Ч�� �ص�����Ч��
+静态页编写  图片的移上效果 回到顶部效果
