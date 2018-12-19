@@ -1,47 +1,60 @@
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
-    margin: 0;
-    padding: 0;
-}
-body, button, input, select, textarea {
-    font: 12px/1.5tahoma, arial, \5b8b\4f53;
-}
-h1, h2, h3, h4, h5, h6 {
+
+html, body, div, span, object, iframe, section, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, figure, figcaption, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, span, tr, th {
+    border: 0px;
+    padding: 0px;
     font-size: 100%;
+    margin: 0px;
+    font-family: inherit;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
 }
-address, cite, dfn, em, var {
-    font-style: normal;
-}
-code, kbd, pre, samp {
-    font-family: couriernew, courier, monospace;
-}
-small {
+body {
+    color: #565656;
+    line-height: 20px;
     font-size: 12px;
+    font-family:"Arial",'Microsoft Yahei',"Lucida Grande", "Tahoma", "Helvetica", "sans-serif"
+    margin: 0px;
 }
-ul, ol {
-    list-style: none;
+div {
+    display: block;
 }
-a {
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+input, textarea, select {
+    font-family: "Arial",'Microsoft Yahei',"Lucida Grande", "Tahoma", "Helvetica", "sans-serif"
+    background-color: #FFFFFF;
+    font-size:12px;
+    outline:none;
+}
+
+html{overflow-x: hidden;}
+a, a:link {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration:none;
+    color:#8c0000;
 }
-sup {
-    vertical-align: text-top;
+ul, li {
+    list-style-type:none;
 }
-sub {
-    vertical-align: text-bottom;
+.left {
+    float: left;
 }
-legend {
-    color: #000;
+.right {
+    float: right;
 }
-fieldset, img {
-    border: 0;
+
+.yahei {
+    font-family:"Microsoft Yahei", Arial;
 }
-button, input, select, textarea {
-    font-size: 100%;
+.yaheired {
+    font-family:"Microsoft Yahei", Arial;
+    font-size:1.1em;
+    color:#9b0000;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+h1, h2, h3, h4 {
+    font-family:"Microsoft Yahei", Arial;
 }
