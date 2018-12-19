@@ -1479,3 +1479,7 @@ a, a:link {
     background: url(../img/nav_cur_red.png) bottom repeat-x;
    
 }
+#intro:hover{
+	color: #fff;
+	background-color:#8c0000;
+}
