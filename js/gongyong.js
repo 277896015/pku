@@ -18,18 +18,13 @@ $(".subNavRight img").mouseout(function(){
 
 //微信分享二维码显示
 
-        $("a#wechat").hover(function(){
+        $("#wechat").hover(function(){
             $("div#wechats").css("top","105px");
             $("div#wechats").fadeIn();
         },function(){
             $("div#wechats").fadeOut();
         });
-        $("a#wechat2").hover(function(){
-            $("div#wechats").css("top","0px");
-            $("div#wechats").fadeIn();
-        },function(){
-            $("div#wechats").fadeOut();
-        });
+       
 
         var flag =-1;
     //回到顶部/4
