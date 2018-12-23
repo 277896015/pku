@@ -1,0 +1,563 @@
+.content {
+    width: 100%;
+    background: url(../img/fw_bg.jpg) no-repeat bottom center #fff;
+    overflow: hidden;
+}
+.iosSliderDemo {
+    clear: both;
+    width: 100%;
+     padding: 0 0 30% 0; 
+    padding: 0 0 400px;
+    position: relative;
+}
+.fluidHeight {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.sliderContainer {
+    height: 100%;
+    max-height: 400px;
+    padding: 0 0;
+}
+.iosSlider {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.iosSlider .slider {
+    width: 100%;
+    height: 100%;
+}
+.iosSlider .slider .item {
+    width: 100%;
+    max-width: 1380px;
+    height: 100%;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.iosSlider .slider .item .inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    box-shadow: 0 0 10px -5px #000;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.iosSlider .slider .item .inner img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.iosSlider .slider .item .inner .selectorShadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../img/selector-shadow.png) no-repeat 0 0;
+    width: 120px;
+    height: 30px;
+    display: none;
+}
+.iosSlider .slider .item .inner .text1-bg {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background: none repeat scroll 0 0 #000000;
+    position: absolute;
+    bottom: 12%;
+    padding: 0 12px 0 12px;
+    height: 50px;
+    text-align: left;
+}
+.iosSlider .slider .item .inner .text1 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    bottom: 12%;
+    padding: 0 12px 0 12px;
+    height: 50px;
+    text-align: left;
+}
+.iosSlider .slider .item .inner .text1 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    bottom: 12%;
+    padding: 0 12px 0 12px;
+    height: 50px;
+    text-align: left;
+}
+.iosSlider .slider .item .inner .more {
+    opacity: 0.4;
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    bottom: 6%;
+    right: 0;
+    padding: 0 5px 0 2px;
+    height: 25px;
+    width: 55px;
+    z-index: 2;
+    text-align: center;
+}
+.iosSlider .slider .item .inner .more a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "微软雅黑";
+}
+.sliderContainer .slideSelectors {
+    position: relative;
+    bottom: 20px;
+    width: 160px;
+    margin: 0 auto;
+    z-index: 1;
+    height: 11px;
+}
+.sliderContainer .slideSelectors .prev {
+    float: left;
+    width: 11px;
+    height: 11px;
+    background: url(../img/arrow_left.png) no-repeat 50% 0;
+}
+.sliderContainer .slideSelectors .item {
+    float: left;
+    width: 9px;
+    height: 9px;
+    background: #aaa;
+    margin: 1px 1px 1px 11px;
+    opacity: 0.25; 
+    filter: alpha(opacity=25);
+    border-radius: 10px;
+}
+.sliderContainer .slideSelectors .next {
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 0 0 0 10px;
+    background: url(../img/arrow_right.png) no-repeat 50% 0;
+}
+.sliderContainer .scrollbarContainer {
+    position: relative;
+    bottom: 4px;
+    left: 0;
+    height: 4px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.con_wap {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 320px;
+}
+.new {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 35px;
+}
+.new h2, .conL h2 {
+    font-size: 18px;
+    color: #282828;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #8c0000;
+    margin-bottom: 8px;
+}
+.newL {
+    width: 308px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    line-height: 18px;
+    height: 272px;
+    overflow: hidden;
+}
+.newL {
+    width: 308px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    line-height: 18px;
+    height: 272px;
+    overflow: hidden;
+}
+.newL h3 {
+    font-size: 15px;
+    margin: 5px 0 5px;
+}
+.newL p {
+    color: #787878;
+}
+.newR {
+    margin-left: 14px;
+    width: 317px;
+    float: left;
+}
+.newR li {
+    font-size: 14px;
+    padding: 12px 12px 12px 18px;
+    line-height: 20px;
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.conL {
+    overflow: hidden;
+    width: 568px;
+    margin-top: 5px;
+    float: left;
+}
+.jxky {
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.new h2, .conL h2 {
+    font-size: 18px;
+    color: #282828;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #8c0000;
+    margin-bottom: 8px;
+}
+.jxky dt {
+    width: 150px;
+    float: left;
+}
+.jxky dd {
+    line-height: 18px;
+    margin: 0 8px 0 0;
+}
+.mtbd {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+.conR {
+    width: 402px;
+    float: left;
+    margin: 5px 0 0 30px;
+    overflow: hidden;
+}
+.conR dl {
+    height: 175px;
+    overflow: hidden;
+    margin: 22px 0;
+    background: #f4f4f4;
+    *margin: 26px 0;
+}
+
+
+    .conR dd {
+    border-top: 2px solid #8c0000;
+    height: 173px;
+    float: left;
+    width: 307px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ztw {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 35px;
+}
+.ztw dl {
+    background: #f4f4f4;
+    overflow: hidden;
+    width: 100%;
+}
+.ztw dl {
+    background: #f4f4f4;
+    overflow: hidden;
+    width: 100%;
+}
+
+.conR dt, .ztw dt {
+    width: 94px;
+    border: 1px solid #c9c9c9;
+    border-right: none;
+    float: left;
+    height: 125px;
+    background: #f4f4f4;
+    text-align: center;
+    padding-top: 48px;
+}
+
+
+.ztw dt {
+    padding-top: 21px;
+    height: 101px;
+    width: 99px;
+}
+
+.ztw dd {
+    border-top: 2px solid #8c0000;
+    float: left;
+    width: 900px;
+}
+.fw_wap {
+    width: 100%;
+    margin-top: 43px;
+    overflow: hidden;
+    padding-bottom: 42px;
+}
+.fw_wap li {
+    float: left;
+    padding: 8px;
+    margin: 47px 53px 0 0;
+    background: #fff;
+    position: relative;
+    height: 126px;
+    width: 194px;
+    
+}
+.fw_wap li.icon1 p {
+    background: #6f3740;
+}
+.fw_wap li p {
+    position: absolute;
+    bottom: 8px;
+     height: 30px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    left: 8px;
+    width: 194px;
+    z-index: 1;
+}
+
+
+.fw_wap li h3 {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+     height: 30px; 
+    color: #fff;
+    font-size: 14px;
+    z-index: 2;
+}
+.fw_wap li h3 span {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    padding: 5px 10px 4px;
+    float: left;
+}
+.fw_wap li h3 a {
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.fw_wap li.icon2 p {
+    background: #7b4366;
+}
+
+.fw_wap li.icon3 p {
+    background: #876fa7;
+}
+
+.fw_wap li.icon4 p {
+    background: #47527f;
+}
+.conR dd .img, .fw_wap li .img {
+    width: 100%;
+}
+.fw_wap li.icon5 p {
+    background: #64a2af;
+}
+.fw_wap li.icon6 p {
+    background: #3a844f;
+}
+.fw_wap li.icon7 p {
+    background: #979d53;
+}
+.fw_wap li.icon8 p {
+    background: #ad9063;
+}
+
+.jxky dd p {
+    color: #505050;
+}
+.jxky dd h3 {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.jxky dt img {
+    width: 120px;
+    height: 120px;
+}
+.mtbd li {
+    height: 40px;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.newL img {
+    width: 308px;
+    height: 173px;
+}
+.newR li.last a.lastL {
+    color: #8c0000;
+    display: inline-block;
+    width: 185px;
+    text-align: left;
+}
+.newR li.last a.lastL #notice_num {
+    color: #000000;
+}
+.newR li.last a.lastR {
+    color: #8c0000;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    background: url(../img/a_bg.jpg) no-repeat right center;
+    padding-right: 17px;
+}
+.newR li.last {
+    border-bottom: none;
+    text-align: right; 
+}
+.mtbd li span {
+    width: 120px;
+    height: 40px;
+    display: block;
+    background: #f4f4f4;
+    text-align: center;
+    line-height: 40px;
+    color: #8c0000;
+    margin-right: 24px;
+    float: left;
+}
+.mtbd li a {
+    width: 423px;
+    display: block;
+    float: left;
+}
+.slide .caption a, .conR dd a, .ztw dd a {
+    color: #fff;
+}
+.conR dd p, .ztw dd p {
+    position: absolute;
+    /* height: 28px; */
+    background: #000;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+    left: 0;
+}
+.cover p, .cover h3 {
+    height: 0;
+    overflow: hidden;
+}
+.cover1 p, .cover1 h3 {
+    height: 0px;
+    overflow: hidden;
+}
+/*图片移上显示*/
+
+.conR dd:hover .cover p, .ztw li:hover .cover p, .conR dd:hover .cover h3, .ztw li:hover .cover h3, .fw_wap li:hover .cover p, .fw_wap li:hover .cover h3 {
+    height: 28px;
+}
+.datalist, .cover p, .cover h3 {
+    transition: height 0.3s, transform 0.3s;
+    -moz-transition: height 0.3s, -moz-transform 0.3s;
+    -webkit-transition: height 0.3s, -webkit-transform 0.3s;
+    -o-transition: height 0.3s,-o-transform 0.3s;
+}
+.conR dd h3, .ztw dd h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+     height: 0px; 
+    line-height: 28px;
+    text-align: center;
+    z-index: 2;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.cover a {
+    width: 130px;
+    text-align: center;
+}
+.cover1 a {
+    width: 128px;
+    text-align: center;
+}
+.conR dt span, .ztw dt span {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 6px;
+}
+.tzgg li {
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+.tzgg li span {
+    font-family: Arial
+ /*Georgia*/;
+    width: 126px;
+    display: block;
+    float: left;
+    color: #8c0000;
+    background: url(../img/line.jpg) no-repeat right center;
+    overflow: hidden;
+    margin-right: 18px;
+    height: 36px;
+    line-height: 36px;
+}
+.tzgg li span i {
+    font-style: normal;
+    font-size: 18px;
+}
+.tzgg li a {
+    width: 422px;
+    float: left;
+    display: block;
+}
+img, object {
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+.ztw dd ul {
+    overflow: hidden;
+}
+.ztw dd li {
+    height: 122px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 180px;
+}
+.ztw dd li img {
+    width: 180px;
+    height: 122px;
+}
+.ztw dd a h3 {
+    display: none;
+}
+.cover p, .cover h3 {
+    height: 0;
+    overflow: hidden;
+}
